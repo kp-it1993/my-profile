@@ -1,32 +1,29 @@
 <!doctype html>
 <html lang="th">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>My Profile</title>
-<style>
-  body { font-family: system-ui, sans-serif; max-width:900px; margin:40px auto; padding:0 16px; }
-  header { text-align:center; margin-bottom:24px; }
-  .hero { display:flex; gap:20px; align-items:center; }
-  img.avatar { width:120px; height:120px; border-radius:12px; object-fit:cover; }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Profile</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-  <h1>ชื่อนามสกุล</h1>
-  <p>ตำแหน่ง / คำอธิบายสั้น ๆ</p>
-</header>
+  <header style="text-align:center; padding:32px 16px;">
+    <h1>ชื่อนามสกุล</h1>
+    <p>ตำแหน่ง / คำอธิบายสั้น ๆ</p>
+  </header>
 
-<section class="hero">
-  <img class="avatar" src="images/me.jpg" alt="avatar">
-  <div>
-    <h2>เกี่ยวกับฉัน</h2>
-    <p>รายละเอียดสั้น ๆ — งาน ทักษะ ช่องทางติดต่อ</p>
-  </div>
-</section>
+  <main style="max-width:900px; margin:0 auto; padding:0 16px;">
+    <section style="display:flex; gap:20px; align-items:center;">
+      <img src="images/avatar.jpg" alt="avatar" style="width:120px;height:120px;border-radius:12px;object-fit:cover;">
+      <div>
+        <h2>เกี่ยวกับฉัน</h2>
+        <p>รายละเอียดสั้น ๆ — งาน ทักษะ ช่องทางติดต่อ</p>
+      </div>
+    </section>
+  </main>
 
-<footer style="margin-top:40px; text-align:center;">
-  <small>© 2025 ชื่อคุณ</small>
-</footer>
+  <footer style="text-align:center; padding:24px 16px;">
+    <small>© 2025 ชื่อคุณ</small>
+  </footer>
 </body>
 </html>
